@@ -2,6 +2,7 @@ package com.thedankdinonycus.raptormod;
 
 import com.thedankdinonycus.raptormod.proxy.CommonProxy;
 import com.thedankdinonycus.raptormod.util.Reference;
+import com.thedankdinonycus.raptormod.util.handlers.RegistryHandler;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -23,7 +24,7 @@ public class Main {
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event)
 	{
-		
+		RegistryHandler.preInitRegistries();
 	}
 	
 	@EventHandler
