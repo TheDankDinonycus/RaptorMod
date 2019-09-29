@@ -10,7 +10,7 @@ import net.minecraft.util.ResourceLocation;
 
 public class RenderCompy extends RenderLiving<EntityCompy>
 {
-	public static final ResourceLocation TEXTURES = new ResourceLocation(Reference.MOD_ID + ";textures/entity/compy.png");
+	public static final ResourceLocation TEXTURES = new ResourceLocation(Reference.MOD_ID + ":textures/entity/compy.png");
 	
 	public RenderCompy(RenderManager manager)
 	{
